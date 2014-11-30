@@ -47,7 +47,7 @@
       $time = ($hm[0]*60)+$hm[1];
       if(!isset($out[$month]))
       {
-        $out[$month] = Array('total_time' => (int) 0,'total_num" => (int) 0);
+        $out[$month] = Array('total_time' => (int) 0,'total_num' => (int) 0);
       }
       $out[$month]['total_time'] += $time;
       $out[$month]['total_num']++;
